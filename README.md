@@ -1,11 +1,11 @@
 # poc-highchart
 
-##Creating Database
+## Creating Database
 
 CREATE DATABASE IPLPoll;
 
 
-##Creating Table
+## Creating Table
 We will store the team data in IplTeams table. Execute the following commands to create the table.
 
 CREATE TABLE IplTeams    
@@ -15,7 +15,7 @@ TeamName VARCHAR(30) NOT NULL,
 VoteCount INTEGER NOT NULL  
 ) 
 
-##Insert Teams
+## Insert Teams
 Now, we will put in the team names and initialize the vote count to zero. Execute the following insert statements.
 
 INSERT INTO IplTeams VALUES ('Chennai Super Kings',0)  
